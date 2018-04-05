@@ -64,15 +64,15 @@
 #landing-content .light img {
   width: 100px;
   position: absolute;
-  top: 40%;
+  top: 45%;
 }
 
 #landing-content .light .light1 {
-  left: 20%;
+  left: 25%;
 }
 
 #landing-content .light .light2 {
-  right: 20%;
+  right: 25%;
   transform: rotateY(180deg);
 }
 

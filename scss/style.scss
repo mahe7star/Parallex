@@ -1,5 +1,5 @@
 $transtime:0.1s;
-
+$light:25%;
 
 *{
     padding: 0;
@@ -64,13 +64,13 @@ $transtime:0.1s;
         img{
             width: 100px;
             position: absolute;
-            top: 40%;
+            top: 45%;
         }
         .light1{
-            left: 20%;
+            left: $light;
         }
         .light2{
-            right: 20%;
+            right: $light;
             transform: rotateY(180deg);
         }
     }
