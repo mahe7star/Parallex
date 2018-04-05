@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        padding-top: 100px;
+    }
+    .main{
+        height: 80vh;
+        width:100%;
+    }
+</style>
+<body class="bg-dark">
+    <div class="col-md-12 text-center text-light">
+        <h2 class="main"></h2>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).mousemove(function(event){ 
+        var width = ($( window ).width())/2;
+        var pos = (event.pageX-width)*(-0.01);
+        $(".main").text("X: " + pos+", Width: "+width); 
+    });
+</script>
+</html>
